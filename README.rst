@@ -15,8 +15,11 @@ Usage
 ===========
 
 >> git clone git@github.com:dionisos2/space_looters.git
+
 >> cd space_looters
+
 >> python setup.py develop
+
 >> sp_statistics
 
 Note

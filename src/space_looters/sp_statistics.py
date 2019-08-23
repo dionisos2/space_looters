@@ -1,8 +1,8 @@
-from itertools import product, combinations_with_replacement
+from itertools import product
 from collections import Counter
 from fractions import Fraction
 
-def damage(dices):
+def stats(dices):
     kind_list = ["B", "D", "P"]
     sum_maxi = {}
     sum_mean = {}
@@ -41,4 +41,4 @@ def run():
     p = proba_for(["M", "M"], [m_dice, m_dice, m_dice])
 
     print(p, float(p), 1/float(p))
-    print(damage([j_dice, j_dice, j_dice, r_dice]))
+    print(stats([j_dice, j_dice, j_dice, r_dice]))
